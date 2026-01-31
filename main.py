@@ -182,9 +182,9 @@ try:
     # apply starting mode
     StateMachine.initialize_starting_mode()
 
-    time.sleep(10)
-    print(BigPrint.C4_BOMB.value)
-    print(BigPrint.PRESS_CTRL_C.value)
+    # time.sleep(10)
+    # print(BigPrint.C4_BOMB.value)
+    # print(BigPrint.PRESS_CTRL_C.value)
 
     while True:
         message = stateChangeSubscriber.receive()
